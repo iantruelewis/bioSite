@@ -1,4 +1,6 @@
-# bioSite
-Repository for assignments related to bioSite development
+# CSD 340 Web Development with HTML and CSS
+Contributors:
 
-Will continue to update and add assignments according to progress in CSD-340
+• Professor John Woods
+
+• Student Ian Lewis
