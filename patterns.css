@@ -1,0 +1,146 @@
+patterns.css
+
+/* 11/09/24 */
+/* Ian Lewis */
+/* CSD 340 */
+/* bioSite */
+
+/* ------------------------------- */
+/* 1. Color Palette - Fall-Inspired Colors */
+/* ------------------------------- */
+
+:root {
+    /* Primary Colors */
+    --primary-color: #c75d2d;   /* Burnt Orange */
+    --secondary-color: #8c7b4d; /* Olive Green */
+    --accent-color: #d3b15c;    /* Mustard Yellow */
+    
+    /* Neutral Colors */
+    --light-gray: #f1f1f1;
+    --dark-gray: #333333;
+    --white: #ffffff;
+    --light-tan: #f4e1c1;  /* Light Tan for backgrounds */
+}
+
+/* ------------------------------- */
+/* 2. Typography - Font styles */
+/* ------------------------------- */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--light-tan); /* Light tan background */
+    color: var(--dark-gray);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* ------------------------------- */
+/* 3. Links and Buttons - Styling */
+/* ------------------------------- */
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+/* ------------------------------- */
+/* 4. Layout and Composition */
+/* ------------------------------- */
+
+/* Basic container for page content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* ------------------------------- */
+/* 5. Images - Image handling */
+/* ------------------------------- */
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* For portraits - Circular images */
+.portrait img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--primary-color);
+}
+
+/* ------------------------------- */
+/* 6. Utility Classes - Common reusable styles */
+/* ------------------------------- */
+
+/* Centering elements */
+.center {
+    text-align: center;
+}
+
+/* Space between elements */
+.space-between {
+    margin-bottom: 30px;
+}
+
+/* Add some padding around elements */
+.padding-small {
+    padding: 10px;
+}
+
+.padding-large {
+    padding: 40px;
+}
